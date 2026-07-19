@@ -9,7 +9,11 @@
     "dev": "npm run build && electron .",
     "dist": "npm run build && electron-builder"
   },
-  "keywords": ["kidzvidz", "streaming", "electron"],
+  "keywords": [
+    "kidzvidz",
+    "streaming",
+    "electron"
+  ],
   "author": "Kidzvidz",
   "license": "ISC",
   "type": "commonjs",
@@ -19,7 +23,8 @@
     "electron-builder": "^26.15.3",
     "esbuild": "^0.28.1",
     "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react-dom": "^19.2.7",
+    "sharp": "^0.35.3"
   },
   "build": {
     "appId": "com.kidzvidz.main",
