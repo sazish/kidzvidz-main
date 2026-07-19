@@ -1,0 +1,32 @@
+appId: com.kidzvidz.main
+productName: Kidzvidz
+directories:
+  output: dist
+  buildResources: assets
+files:
+  - main.js
+  - preload.js
+  - public/**/*
+  - assets/**/*
+asarUnpack:
+  - public/**/*
+mac:
+  target:
+    - dmg
+    - zip
+  icon: assets/icon.png
+  category: public.app-category.entertainment
+  hardenedRuntime: false
+  gatekeeperAssess: false
+dmg:
+  contents:
+    - x: 110
+      y: 150
+      type: file
+    - x: 240
+      y: 150
+      type: link
+      path: /Applications
+  window:
+    width: 540
+    height: 380
