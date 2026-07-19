@@ -23,7 +23,7 @@ sharp(Buffer.from(svgIcon))
   .png()
   .toFile('/Users/nickazish/kidzvidz_main/assets/icon.png')
   .then(() => {
-    console.log('✓ Icon created with large play button');
+    console.log('✓ Icon created with large play button and gradient background');
   })
   .catch(err => {
     console.error('Error creating icon:', err);
