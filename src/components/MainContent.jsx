@@ -6,47 +6,27 @@ function MainContent({ selectedMenu, isDarkMode }) {
     home: {
       title: 'Home',
       description: 'Welcome to Kidzvidz',
-      content: 'Start streaming your favorite shows and movies'
-    },
-    'apple-tv': {
-      title: 'Apple TV',
-      description: 'Premium streaming content',
-      content: 'Enjoy exclusive shows and movies'
-    },
-    formula1: {
-      title: 'Formula 1',
-      description: 'Live racing events',
-      content: 'Watch Formula 1 races and highlights'
-    },
-    mls: {
-      title: 'MLS',
-      description: 'Major League Soccer',
-      content: 'Follow your favorite soccer teams'
-    },
-    store: {
-      title: 'Store',
-      description: 'Browse and purchase content',
-      content: 'Explore our content store'
-    },
-    'recently-added': {
-      title: 'Recently Added',
-      description: 'New content just added',
-      content: 'Check out the latest additions to your library'
+      content: 'Discover featured content and start streaming'
     },
     movies: {
       title: 'Movies',
-      description: 'Browse your movie collection',
-      content: 'Your saved movies appear here'
+      description: 'Browse all movies',
+      content: 'Find your favorite kids movies'
     },
     'tv-shows': {
       title: 'TV Shows',
-      description: 'Browse your TV show collection',
-      content: 'Your saved TV shows appear here'
+      description: 'Browse all TV shows',
+      content: 'Watch your favorite series'
     },
-    '4k-hdr': {
-      title: '4K HDR',
-      description: 'Ultra HD content',
-      content: 'Browse 4K and HDR content'
+    library: {
+      title: 'My Library',
+      description: 'Your saved content',
+      content: 'Access your watchlist and downloads'
+    },
+    settings: {
+      title: 'Settings',
+      description: 'Manage your account',
+      content: 'Customize your Kidzvidz experience'
     }
   };
 
